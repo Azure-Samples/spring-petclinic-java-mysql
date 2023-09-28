@@ -25,7 +25,8 @@ with Managed Identities.
 2. Run the following command to initialize the project, provision Azure resources, and deploy the application code.
 
 ```bash
-azd up --template spring-petclinic-java-mysql
+azd init --template spring-petclinic-java-mysql
+azd up
 ```
 
 You will be prompted for the following information:
