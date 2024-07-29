@@ -96,7 +96,7 @@ commands on our [Azure Developer CLI command](https://aka.ms/azure-dev/ref) page
 
 ## Run application locally
 
-> NOTE: Azure Database for MySQL flexible servers don't allow connections from local machines by default for security. 
+> NOTE: Azure Database for MySQL Flexible Servers don't allow connections from local machines by default for security. 
 > You must add current IP address of your local machine to the firewall rules in [Azure Portal](https://ms.portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.DBforMySQL%2Fservers) before running the application locally.
 
 ![add firewall rule to allow local connections](readme.assests/add_mysql_firewall_rule.png)
@@ -161,7 +161,7 @@ to run the application locally. To view your managed identity in the Azure Porta
 ### Key Vault
 
 This template uses [Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/overview) to securely store user password
-for the provisioned Azure Database for MySQL flexible server. Key Vault is a cloud service for securely storing and accessing secrets
+for the provisioned Azure Database for MySQL Flexible Server. Key Vault is a cloud service for securely storing and accessing secrets
 (API keys, passwords, certificates, cryptographic keys) and makes it simple to give other Azure services access to them. As you
 continue developing your solution, you may add as many secrets to your Key Vault as you require.
 
